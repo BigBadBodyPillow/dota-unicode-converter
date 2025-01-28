@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/form.css" />
+    <script src="scripts/oneko.js" defer></script>
+    <script src="scripts/convert.js" defer></script>
+  </head>
+  <body>
+    <div class="rainbow-line"></div>
+    <div class="nav">
+      <h1>emoji conversions</h1>
+    </div>
+    <hr />
+    <div class="content">
+      <div class="container">
+        <div class="form-container">
+          <div class="idk">
+            <div class="emoji-group">
+              <input
+                class="emoji-input abc"
+                id="emojiInput"
+                type="text"
+                placeholder=" "
+                name="emoji"
+              />
+              <label class="emoji-label" htmlFor="emoji"> enter unicode </label>
+            </div>
+            <div class="output-group">
+              <div class="float-message" id="floatMessage">Copied</div>
+              <input
+                class="output-input abc"
+                id="emojiOutput"
+                type="text"
+                placeholder=" "
+                name="output"
+              />
+              <label class="output-label" htmlFor="output"> output </label>
+            </div>
+            <button class="send-button" id="clearButton" type="submit">
+              clear
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
