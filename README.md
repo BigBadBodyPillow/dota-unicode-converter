@@ -14,3 +14,5 @@ currently there is a list of dota emojis(https://github.com/s3rbug/dota2_emojis_
 however it was last updated 2 years ago, there are many emojis not on that list.
 There is also a way to get an updated list of emojis (https://github.com/blukai/dota2-emoticons/tree/master)
 however that provides the unicode.
+
+cat - https://github.com/adryd325/oneko.js/
